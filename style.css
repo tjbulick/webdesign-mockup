@@ -69,7 +69,7 @@ nav {
 	padding: 0 13px;
 }
 
-.top-slide :nth-child(2) {
+.top-slide:nth-child(2) {
 	margin-bottom: 10px;
 }
 
@@ -97,20 +97,24 @@ nav {
 	font-size: 24px;
 }
 
-.first-p {
-	font-size: 20px;
-	color: #fff;
+.specialize-cards {
+	display: flex;
+	justify-content: space-between;
+}
+
+.top-card img {
+	display: block;
 }
 
 .bottom-card {
 	background: #414146;
-	position: relative;
-	top: -30px;
 }
 
-.specialize-cards {
-	display: flex;
-	justify-content: space-between;
+.bottom-card p {
+	font-size: 20px;
+	color: #fff;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 @media screen and (max-width: 420px) {
@@ -162,7 +166,8 @@ nav {
 
 	.main-menu {
 		position: relative;
-		top: 30px;
+		/* top: 30px; */
+		top: 15px;
 		right: 115px;
 	}
 }
