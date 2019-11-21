@@ -248,4 +248,8 @@ section.portfolio p {
 		width: 240px;
 		margin-bottom: 50px;
 	}
+
+	.posts {
+		grid-template-columns: auto;
+	}
 }
