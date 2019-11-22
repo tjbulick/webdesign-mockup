@@ -171,10 +171,10 @@ section.brands-slider {
 	width: 90%;
 	margin: 0 auto;
 	text-align: center;
+	padding: 40px 0;
 }
 
 section.brands-slider h4 {
-	margin-top: 40px;
 	background: #414147;
 	color: #ffea00;
 	display: inline-block;
@@ -187,6 +187,42 @@ section.brands-slider p {
 	color: #424146;
 	font-size: 16px;
 	margin-bottom: 30px;
+}
+
+footer {
+	background: #414146;
+	padding: 30px 0;
+	color: #fff;
+}
+
+.footer-container {
+	width: 90%;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 40% 30% 20%;
+	column-gap: 3%;
+}
+
+.footer-container h4 {
+	font-size: 18px;
+}
+
+.footer-container .about-us a {
+	color: #fff;
+	background: #000;
+	padding: 5px 15px;
+	border-bottom: 2px solid #ffea00;
+	display: inline-block;
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+
+.photo-stream-images {
+	margin-top: 20px;
+}
+
+.latest-tweets p {
+	margin-top: 20px;
 }
 
 @media screen and (max-width: 420px) {
