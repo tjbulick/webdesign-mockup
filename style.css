@@ -221,8 +221,18 @@ footer {
 	margin-top: 20px;
 }
 
-.latest-tweets p {
+.tweet {
 	margin-top: 20px;
+	display: flex;
+	align-items: flex-start;
+}
+
+.tweet img {
+	margin-right: 10px;
+}
+
+.tweet .tweet-text {
+	font-size: 14px;
 }
 
 @media screen and (max-width: 420px) {
