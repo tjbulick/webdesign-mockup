@@ -199,7 +199,7 @@ footer {
 	width: 90%;
 	margin: 0 auto;
 	display: grid;
-	grid-template-columns: 40% 30% 20%;
+	grid-template-columns: 35% 35% 20%;
 	column-gap: 3%;
 }
 
@@ -233,6 +233,12 @@ footer {
 
 .tweet .tweet-text {
 	font-size: 14px;
+}
+
+.social-connecting {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
 }
 
 @media screen and (max-width: 420px) {
