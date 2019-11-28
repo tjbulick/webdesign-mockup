@@ -7,7 +7,7 @@ body {
 	margin: 0;
 }
 
-li {
+.main-menu li {
 	list-style: none;
 	display: flex;
 }
@@ -43,7 +43,7 @@ header {
 	display: none;
 }
 
-ul {
+.main-menu {
 	display: flex;
 }
 
@@ -266,13 +266,34 @@ footer {
 	margin-right: 20px;
 }
 
+.contact .contact-body {
+	display: flex;
+}
+
+.contact .contact-body .contact-label {
+	margin-right: 20px;
+	flex-shrink: 0;
+}
+
+.contact .contact-body ul {
+	list-style-type: none;
+}
+
+a[href*="tel"] {
+	color: #ffea00;
+}
+
+a[href*="mailto"] {
+	color: #ffea00;
+}
+
 .contact-info form {
 	display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.contact-info input[type=text] {
+.contact-info form input[type=text] {
 	background-color: transparent;
 	border: none;
 	border-bottom: 2px solid #ffea00;
@@ -281,11 +302,11 @@ footer {
 	font-size: 16px;
 }
 
-.contact-info input[type=text]:focus {
+.contact-info form input[type=text]:focus {
 	outline: none;
 }
 
-.contact-info input[type=image] {}
+
 
 @media screen and (max-width: 420px) {
 	.header-container {
