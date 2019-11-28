@@ -232,7 +232,17 @@ footer {
 }
 
 .tweet .tweet-text {
-	font-size: 14px;
+	font-size: 16px;
+}
+
+.highlighted {
+	color: #ffea00;
+}
+
+.tweet .tweet-body .tweet-timestamp {
+	margin-top: 25px;
+	font-size: 12px;
+	color: #ffea00;
 }
 
 .social-connecting {
