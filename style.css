@@ -205,6 +205,7 @@ footer {
 
 .footer-container h4 {
 	font-size: 18px;
+	margin-bottom: 30px;
 }
 
 .footer-container .about-us a {
@@ -250,6 +251,41 @@ footer {
 	justify-content: space-between;
 	margin-top: 30px;
 }
+
+.social-connecting h4 {
+	margin-bottom: 0;
+}
+
+.contact {
+	display: flex;
+	align-items: flex-start;
+	margin-bottom: 30px;
+}
+
+.contact img {
+	margin-right: 20px;
+}
+
+.contact-info form {
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-info input[type=text] {
+	background-color: transparent;
+	border: none;
+	border-bottom: 2px solid #ffea00;
+	color: #fff;
+	padding: 5px;
+	font-size: 16px;
+}
+
+.contact-info input[type=text]:focus {
+	outline: none;
+}
+
+.contact-info input[type=image] {}
 
 @media screen and (max-width: 420px) {
 	.header-container {
